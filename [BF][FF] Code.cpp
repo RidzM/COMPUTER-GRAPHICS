@@ -13,7 +13,6 @@ void boundaryfill(int x, int y,int fill_c, int boundary_c)
    boundaryfill(x-1,y,fill_c,boundary_c);
    }
  }
-
 void ff(int x,int y,int old_c, int new_c)
 {
 int current;
@@ -27,7 +26,6 @@ ff(x+1,y,old_c,new_c);
 ff(x-1,y,old_c,new_c);
 }
 }
-
 void main() {
 	int x,y,x1,y1,r,gd=DETECT,gm,d;
 	x=0;
